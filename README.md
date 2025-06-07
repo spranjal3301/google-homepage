@@ -3,7 +3,8 @@
 A pixel-perfect, feature-rich replica of the Google homepage built with cutting-edge web technologies and advanced performance optimizations.
 
 ## 🚀 **Live Demo**
-[View Live Demo](https://google-clone-advanced.vercel.app)
+[View Live Demo](https://gooogle-homepage.vercel.app/)
+![Demo Model](https://github.com/spranjal3301/google-homepage/blob/main/preview.png?raw=true)
 
 ## ✨ **Advanced Features**
 
