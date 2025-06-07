@@ -11,13 +11,13 @@ export function Header() {
 
   return (
     <motion.header
-      className="flex items-center justify-between p-4 md:p-6"
+      className="flex items-center md:justify-between justify-end p-4 md:p-6"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       onKeyDown={handleKeyDown}
     >
-      <div className="flex items-center space-x-4">
+      <div className="hidden md:flex items-center space-x-4">
         <Link
           href="#"
           className={`text-sm text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-900 dark:hover:text-gray-100 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 rounded px-2 py-1 ${
@@ -41,7 +41,7 @@ export function Header() {
       <div className="flex items-center space-x-4">
         <Link
           href="#"
-          className={`text-sm text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-900 dark:hover:text-gray-100 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 rounded px-2 py-1 ${
+          className={`hidden md:block text-sm text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-900 dark:hover:text-gray-100 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 rounded px-2 py-1 ${
             focusedIndex === 2 ? "ring-2 ring-blue-500" : ""
           }`}
           tabIndex={0}

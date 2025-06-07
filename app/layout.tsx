@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://google-clone.vercel.app",
+    url: "https://gooogle-homepage.vercel.app",
     title: "Google",
     description: "Search the world's information",
     siteName: "Google Clone",
@@ -48,7 +48,6 @@ export const metadata: Metadata = {
     title: "Google",
     description: "Search the world's information",
   },
-    generator: 'v0.dev'
 }
 
 export const viewport: Viewport = {

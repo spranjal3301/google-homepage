@@ -78,7 +78,7 @@ export function SearchBar({ value, onChange, onSearch, suggestions = [], isLoadi
   return (
     <div className="relative w-full max-w-2xl mx-auto">
       <motion.div
-        className={`relative flex items-center bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-full shadow-sm transition-all duration-200 ${
+        className={`relative flex items-center bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-full shadow-sm transition-all duration-200 overflow-hidden ${
           isFocused ? "shadow-lg ring-1 ring-blue-500/20 dark:ring-blue-400/20" : "hover:shadow-md"
         }`}
         animate={{
@@ -98,7 +98,7 @@ export function SearchBar({ value, onChange, onSearch, suggestions = [], isLoadi
           onKeyDown={handleKeyDown}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setTimeout(() => setIsFocused(false), 150)}
-          className="flex-1 px-4 py-3 text-base bg-transparent border-none outline-none text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400"
+          className="flex-1 pl-4 md:px-4 py-3 text-base bg-transparent border-none outline-none text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400"
           placeholder=""
           autoComplete="off"
           role="combobox"
