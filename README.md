@@ -386,13 +386,6 @@ This project is for educational purposes only. Google and the Google logo are tr
 - **Vercel**: Deployment platform
 - **Open Source Community**: Various libraries and tools
 
-## 📞 **Support**
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/google-homepage-clone/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/google-homepage-clone/discussions)
-- **Email**: your-email@example.com
-
----
 
 **Built with ❤️ by Pranjal Singh**
 
